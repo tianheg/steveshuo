@@ -17,10 +17,8 @@ declare module '@vue/runtime-core' {
     AListItemMeta: typeof import('ant-design-vue/es')['ListItemMeta']
     App: typeof import('./App.vue')['default']
     ASpin: typeof import('ant-design-vue/es')['Spin']
-    ATag: typeof import('ant-design-vue/es')['Tag']
     HomeView: typeof import('./views/HomeView.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    TheSingleEpisode: typeof import('./components/TheSingleEpisode.vue')['default']
   }
 }
